@@ -55,8 +55,8 @@ var fuelFieldset = document.getElementsByTagName("fieldset")[3];
 /* verify at least one crops checkbox is checked */
 function verifyCrops() {
   try { for (var i = 0; i < 7; i++) {
-    if (cropsFieldset.getElementsByTagName("input")[i].checked) {
-      cropsComplete = true; messageElement.innerHTML = "";
+    if (cropsFieldset.getElementsByTagName("input")[i]. checked) {
+      cropscomplete = true; messageElement.innerHTML = "";
       //clear previous message or recommendation
       testFormCompleteness(); i=8;
       }
